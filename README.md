@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# Masterclass de React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Está aplicação é um clone da interface do Twitter, algumas funcionalidades foram acionadas, como enviar um novo tweet ou reposnder um tweet.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+A aplicação foi criada utilizando alguns conceitos do React, como o conceito de componentes, utilização dos React hooks, para manipular os estados dos componentes, utilizando o useState, React routes, para a navegação entre páginas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Aplicação está totalmente responsiva!
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
