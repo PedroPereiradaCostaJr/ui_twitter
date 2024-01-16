@@ -10,3 +10,13 @@ A aplicação foi criada utilizando alguns conceitos do React, como o conceito d
 Aplicação está totalmente responsiva!
 
 
+## ⚙️ Tecnologias utilizadas:
+    
+    - ReactJs
+    - React Hooks
+    - React Router DOM
+    - Typescript
+    - Phosphor React
+    - Vite
+    - Css
+
