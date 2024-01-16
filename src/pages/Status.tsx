@@ -21,7 +21,8 @@ export function Status() {
   }
 
   function handleHotkeySubmit(event: KeyboardEvent) {
-    if (event.key === "Enter" && (event.ctrlKey || event.metaKey)) {
+    if (event.key === "Enter" && (event.ctrlKey || event.metaKey)  &&
+    newAnswer !== "") {
       setAnswers([newAnswer, ...answers]);
       setNewAnswer("");
     }
@@ -60,6 +61,7 @@ export function Status() {
       {answers.map((answer) => {
         return <Tweet key={answer} contend={answer} />;
       })}
+    
     </main>
   );
 }

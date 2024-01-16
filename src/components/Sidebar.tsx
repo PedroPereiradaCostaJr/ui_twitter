@@ -56,6 +56,31 @@ export function Sidebar() {
         <Pencil />
         <span>Tweet</span>
       </button>
+      <div className="my-3">
+				<div className="flex items-center p-3">
+					<img
+						src="https://github.com/pedropereiradacostajr.png"
+						alt=""
+						className="w-10 h-10 rounded-full"
+					/>
+					<div className="flex flex-col mx-3">
+						<h1 className="text-transparent bg-clip-text bg-gradient-to-r from-rose-700 to-sky-700">
+							<a
+								href="https://github.com/pedropereiradacostajr"
+								target="_blank"
+								className="font-black hover:text-lg transition-all"
+                rel="noopener"
+							>
+								{" "}
+								Pedro Pereira
+							</a>
+						</h1>
+						<h2 className="font-normal text-neutral-600">
+							@PedroPereira
+						</h2>
+					</div>
+				</div>
+        </div>
     </aside>
   );
 }

@@ -8,7 +8,9 @@ export function Timeline() {
   const [newTweet, setNewTweet] = useState("");
   const [tweets, setTweets] = useState([
     "Meu primeiro tweet",
+    "Como isso funciona?",
     "Teste",
+    "Funcionou na minha máquina...  ",
     "Deu certo tweetar!",
   ]);
 
