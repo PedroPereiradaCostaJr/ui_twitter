@@ -72,7 +72,7 @@ export function Sidebar() {
                 rel="noopener"
 							>
 								{" "}
-								Pedro Pereira
+								PPereiraDev
 							</a>
 						</h1>
 						<h2 className="font-normal text-neutral-600">
