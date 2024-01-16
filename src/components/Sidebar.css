@@ -62,6 +62,8 @@
   .sidebar .new-tweet svg {
     display: block;
   }
+  .my-3{
+    display: none;
 }
 .my-3 {
   margin-top: 0.75rem;
